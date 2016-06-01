@@ -1,0 +1,170 @@
+﻿<Page
+    x:Class="What_Son__UWP_.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FaceTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFB883">
+        <MediaElement x:Name="Media"></MediaElement>
+        <Grid x:Name="LeftEye" HorizontalAlignment="Left" Height="250" Margin="50" VerticalAlignment="Top" Width="250">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Ellipse x:Name="L1" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="0"/>
+            <Ellipse x:Name="L2" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="1"/>
+            <Ellipse x:Name="L3" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="2"/>
+            <Ellipse x:Name="L4" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="3"/>
+            <Ellipse x:Name="L5" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="4"/>
+            <Ellipse x:Name="L6" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="5"/>
+            <Ellipse x:Name="L7" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="6"/>
+            <Ellipse x:Name="L8" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="7"/>
+            <Ellipse x:Name="L9" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="0"/>
+            <Ellipse x:Name="L10" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="1"/>
+            <Ellipse x:Name="L11" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="2"/>
+            <Ellipse x:Name="L12" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="3"/>
+            <Ellipse x:Name="L13" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="4"/>
+            <Ellipse x:Name="L14" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="5"/>
+            <Ellipse x:Name="L15" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="6"/>
+            <Ellipse x:Name="L16" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="7"/>
+            <Ellipse x:Name="L17" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="0"/>
+            <Ellipse x:Name="L18" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="1"/>
+            <Ellipse x:Name="L19" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="2"/>
+            <Ellipse x:Name="L20" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="3"/>
+            <Ellipse x:Name="L21" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="4"/>
+            <Ellipse x:Name="L22" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="5"/>
+            <Ellipse x:Name="L23" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="6"/>
+            <Ellipse x:Name="L24" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="7"/>
+            <Ellipse x:Name="L25" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="0"/>
+            <Ellipse x:Name="L26" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="1"/>
+            <Ellipse x:Name="L27" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="2"/>
+            <Ellipse x:Name="L28" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="3"/>
+            <Ellipse x:Name="L29" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="4"/>
+            <Ellipse x:Name="L30" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="5"/>
+            <Ellipse x:Name="L31" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="6"/>
+            <Ellipse x:Name="L32" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="7"/>
+            <Ellipse x:Name="L33" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="0"/>
+            <Ellipse x:Name="L34" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="1"/>
+            <Ellipse x:Name="L35" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="2"/>
+            <Ellipse x:Name="L36" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="3"/>
+            <Ellipse x:Name="L37" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="4"/>
+            <Ellipse x:Name="L38" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="5"/>
+            <Ellipse x:Name="L39" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="6"/>
+            <Ellipse x:Name="L40" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="7"/>
+            <Ellipse x:Name="L41" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="0"/>
+            <Ellipse x:Name="L42" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="1"/>
+            <Ellipse x:Name="L43" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="2"/>
+            <Ellipse x:Name="L44" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="3"/>
+            <Ellipse x:Name="L45" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="4"/>
+            <Ellipse x:Name="L46" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="5"/>
+            <Ellipse x:Name="L47" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="6"/>
+            <Ellipse x:Name="L48" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="7"/>
+            <Ellipse x:Name="L49" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="0"/>
+            <Ellipse x:Name="L50" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="1"/>
+            <Ellipse x:Name="L51" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="2"/>
+            <Ellipse x:Name="L52" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="3"/>
+            <Ellipse x:Name="L53" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="4"/>
+            <Ellipse x:Name="L54" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="5"/>
+            <Ellipse x:Name="L55" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="6"/>
+            <Ellipse x:Name="L56" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="7"/>
+        </Grid>
+
+        <Grid x:Name="RightEye" HorizontalAlignment="Right" Height="250" Margin="50" VerticalAlignment="Top" Width="250">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Ellipse x:Name="R1" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="0"/>
+            <Ellipse x:Name="R2" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="1"/>
+            <Ellipse x:Name="R3" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="2"/>
+            <Ellipse x:Name="R4" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="3"/>
+            <Ellipse x:Name="R5" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="4"/>
+            <Ellipse x:Name="R6" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="5"/>
+            <Ellipse x:Name="R7" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="6"/>
+            <Ellipse x:Name="R8" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="0" Grid.Row="7"/>
+            <Ellipse x:Name="R9" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="0"/>
+            <Ellipse x:Name="R10" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="1"/>
+            <Ellipse x:Name="R11" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="2"/>
+            <Ellipse x:Name="R12" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="3"/>
+            <Ellipse x:Name="R13" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="4"/>
+            <Ellipse x:Name="R14" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="5"/>
+            <Ellipse x:Name="R15" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="6"/>
+            <Ellipse x:Name="R16" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="1" Grid.Row="7"/>
+            <Ellipse x:Name="R17" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="0"/>
+            <Ellipse x:Name="R18" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="1"/>
+            <Ellipse x:Name="R19" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="2"/>
+            <Ellipse x:Name="R20" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="3"/>
+            <Ellipse x:Name="R21" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="4"/>
+            <Ellipse x:Name="R22" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="5"/>
+            <Ellipse x:Name="R23" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="6"/>
+            <Ellipse x:Name="R24" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="2" Grid.Row="7"/>
+            <Ellipse x:Name="R25" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="0"/>
+            <Ellipse x:Name="R26" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="1"/>
+            <Ellipse x:Name="R27" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="2"/>
+            <Ellipse x:Name="R28" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="3"/>
+            <Ellipse x:Name="R29" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="4"/>
+            <Ellipse x:Name="R30" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="5"/>
+            <Ellipse x:Name="R31" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="6"/>
+            <Ellipse x:Name="R32" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="3" Grid.Row="7"/>
+            <Ellipse x:Name="R33" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="0"/>
+            <Ellipse x:Name="R34" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="1"/>
+            <Ellipse x:Name="R35" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="2"/>
+            <Ellipse x:Name="R36" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="3"/>
+            <Ellipse x:Name="R37" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="4"/>
+            <Ellipse x:Name="R38" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="5"/>
+            <Ellipse x:Name="R39" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="6"/>
+            <Ellipse x:Name="R40" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="4" Grid.Row="7"/>
+            <Ellipse x:Name="R41" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="0"/>
+            <Ellipse x:Name="R42" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="1"/>
+            <Ellipse x:Name="R43" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="2"/>
+            <Ellipse x:Name="R44" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="3"/>
+            <Ellipse x:Name="R45" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="4"/>
+            <Ellipse x:Name="R46" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="5"/>
+            <Ellipse x:Name="R47" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="6"/>
+            <Ellipse x:Name="R48" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="5" Grid.Row="7"/>
+            <Ellipse x:Name="R49" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="0"/>
+            <Ellipse x:Name="R50" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="1"/>
+            <Ellipse x:Name="R51" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="2"/>
+            <Ellipse x:Name="R52" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="3"/>
+            <Ellipse x:Name="R53" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="4"/>
+            <Ellipse x:Name="R54" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="5"/>
+            <Ellipse x:Name="R55" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="6"/>
+            <Ellipse x:Name="R56" Fill="Red" HorizontalAlignment="Center" Height="25"  VerticalAlignment="Center" Width="25" Grid.Column="6" Grid.Row="7"/>
+        </Grid>
+        <TextBox x:Name="inputTB" HorizontalAlignment="Center" Margin="100" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="557"/>
+        <Button x:Name="sendBtn" Content="SEND" HorizontalAlignment="Center" VerticalAlignment="Center" Click="sendBtn_Click"/>
+    </Grid>
+</Page>
